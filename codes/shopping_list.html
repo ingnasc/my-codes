@@ -14,15 +14,36 @@
 
 <script>
 
-    var input = document.querySelector(input);
+    var list = []; // vetor que vai receber os itens
+    var item = document.querySelector("input");
+    item.focus(); 
 
-    function verifica() {
+    var existe = false;
 
+    function verifica() { // verificar se já tem na lista antes de adicionar na lista
+
+        for(var posicao = 1; posicao < list.length; posicao++) { // estrutura de repetição
+
+            if(list[posicao] == item) { // não adiciona se for igual
+                existe = true;
+                break;
+            }
+        } 
+
+        if(existe == false) {
+
+            list.push(item);
+
+        }
         
-
     }
 
-    var button = document.querySelector(button);
+    var button = document.querySelector("button");
     button.onclick = verifica; 
+
+    document.write(list);
+    document.write("<br>");
+
+    console.log(list);
 
 </script>
