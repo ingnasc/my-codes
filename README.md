@@ -7,4 +7,6 @@ Topics I learned:
 - Introduction to Javascript
 - Introduction to HTML
 
+Note: some of them are still being built
+
 
