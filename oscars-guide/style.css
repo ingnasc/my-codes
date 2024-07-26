@@ -17,7 +17,7 @@ img {
     position: absolute;
     z-index: 1;
     top: 41%;
-    left: 36.5%;
+    left: 34.2%;
     width: 468px;
     height: 44px;
     color: #000000;
@@ -62,7 +62,7 @@ img {
     font-size: 20px;
     font-weight: 800;
     padding: 5px;
-    width: 717px;
+    width: 650px;
     height: 74px;
     cursor: pointer;
 }
@@ -85,7 +85,21 @@ img {
     font-size: 20px;
     font-weight: 800;
     padding: 5px;
-    width: 468px;
+    width: 425px;
     height: 74px;
     cursor: pointer;
+}
+
+.botaoTituloCategoria {
+    color: #FBD579;
+    background-color: transparent;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    border-radius: 25px;
+    border-color: #FBD579;
+    width: 700px;
+    height: 92px;
+    margin-top: 322px;
 }
