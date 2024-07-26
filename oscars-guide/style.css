@@ -16,8 +16,8 @@ img {
 .botaoCategorias {
     position: absolute;
     z-index: 1;
-    top: 385px;
-    left: 33.5%;
+    top: 41%;
+    left: 36.5%;
     width: 468px;
     height: 44px;
     color: #000000;
@@ -43,3 +43,24 @@ img {
     height: 92px;
 }
 
+.tituloCategoriaMaior {
+    list-style-type: none;
+    text-decoration: none;
+    text-align: center;
+    color: #030000;
+    display: inline-block;
+    line-height: 2.5;
+    margin: 10px 10px;
+}
+
+
+.tituloCategoriaMaior button {
+    background-color: #FBD579;
+    border-radius: 25px;
+    border-color: transparent;
+    font-size: 24px;
+    font-weight: 800;
+    padding: 5px;
+    width: 717px;
+    height: 74px;
+}
