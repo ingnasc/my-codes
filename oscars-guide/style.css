@@ -1,0 +1,44 @@
+body {
+    background-color: #030000;
+    margin: 0;
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+}
+
+.image-container {
+    position: relative;
+}
+
+.botaoCategorias {
+    position: absolute;
+    z-index: 1;
+    top: 380px;
+    left: 33.5%;
+    width: 468px;
+    height: 44px;
+    color: #000000;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #FBD579;
+    border-radius: 25px;
+    border-color: transparent;
+}
+
+.botaoTitulo {
+    color: #FBD579;
+    background-color: transparent;
+    text-align: center;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 20px;
+    border-radius: 25px;
+    border-color: #FBD579;
+    width: 614px;
+    height: 92px;
+}
+
