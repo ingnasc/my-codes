@@ -16,7 +16,7 @@ img {
 .botaoCategorias {
     position: absolute;
     z-index: 1;
-    top: 380px;
+    top: 385px;
     left: 33.5%;
     width: 468px;
     height: 44px;
@@ -27,6 +27,7 @@ img {
     background-color: #FBD579;
     border-radius: 25px;
     border-color: transparent;
+    cursor: pointer;
 }
 
 .botaoTitulo {
