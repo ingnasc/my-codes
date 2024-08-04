@@ -104,8 +104,10 @@ img {
     font-size: 48px;
     font-weight: 800;
     letter-spacing: 5px;
+
     border-radius: 25px;
     border-color: #FBD579;
+
     width: 700px;
     height: 92px;
     margin-top: 128px;
@@ -113,12 +115,14 @@ img {
 
 .sectionCinza {
     background-color: #1F2120;
+
     width: 100%;
     height: 747px;
 }
 
 .sectionPreta {
     background-color: #030000;
+
     width: 100%;
     height: 747px;
 }
@@ -152,22 +156,70 @@ img {
     transform: translateY(0);
 }
 
+/*Imagens dos Cartazes e Vencedores*/
+
 .cartazDosFilmes {
+    position: relative;
     display: inline-block;
 }
 
 .cartazDosFilmes img {
     cursor: pointer;
-
     width: 100%;
 }
 
+.cartazDosFilmes .textoHover {
+    position: absolute;
+    bottom: 15px;
+    left: 10px;
+    right: 10px;
+
+    background-color: #030000;
+
+    font-size: 10px;
+    color: #FBD579;
+
+    padding: 5px;
+    border-radius: 5px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.cartazDosFilmes:hover .textoHover {
+    opacity: 1;
+}
+
 .cartazVencedor {
+    position: relative;
     display: inline-block;
 }
 
 .cartazVencedor img {
     cursor: pointer;
-
     width: 100%;
+
+    border: 10px solid;
+    border-color: #FBD579;
+}
+
+.cartazVencedor .textoHover {
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+
+    background-color: #030000;
+
+    font-size: 10px;
+    color: #FBD579;
+
+    padding: 5px;
+    border-radius: 5px;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.cartazVencedor:hover .textoHover {
+    opacity: 1;
 }

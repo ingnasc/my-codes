@@ -18,3 +18,13 @@ const voltarAoTopo = () => {
         behavior: 'smooth'
     })
 }
+
+const mensagem = document.querySelector('.mensagem');
+
+function mensagemAparece () {
+    mensagem.style.display = "block"; 
+}
+
+function mensagemSome () {
+    mensagem.style.display = "none"; 
+}
