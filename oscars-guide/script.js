@@ -1,13 +1,20 @@
-const voltarAoTopo = document.querySelector(".botaoVoltarAoTopo")
+const botaoVoltarAoTopo = document.querySelector('.botaoVoltarAoTopo')
 
-const voltarAoTopo = () => {
+const voltarAoTopoBotao = () => {
     if (window.scrollY >= 100) {
-        botaoVoltarAoTopo.classList.add("show");
+        botaoVoltarAoTopo.classList.add('show');
     } else {
-        botaoVoltarAoTopo.classList.remove("show");
+        botaoVoltarAoTopo.classList.remove('show');
     }
 }
 
-window.addEventListener("scroll", function () {
-    voltarAoTopo();
+window.addEventListener('scroll', function () {
+    voltarAoTopoBotao();
 })
+
+const voltarAoTopo = () => {
+    window.scrollTo ({
+        top: 0,
+        behavior: 'smooth'
+    })
+}
