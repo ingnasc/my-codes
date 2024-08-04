@@ -33,14 +33,17 @@ img {
 .botaoTitulo {
     color: #FBD579;
     background-color: transparent;
+
     text-align: center;
     font-size: 48px;
     font-weight: 700;
     letter-spacing: 20px;
+
     border-radius: 25px;
     border-color: #FBD579;
     width: 614px;
     height: 92px;
+    
     margin-top: 20px;
     margin-bottom: 10px;
 }
