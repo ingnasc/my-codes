@@ -169,19 +169,19 @@ img {
 
 /*Imagens dos Cartazes e Vencedores*/
 
-.cartazDosFilmes {
+.imagem {
     position: relative;
     display: inline-block;
 
     margin: 10px;
 }
 
-.cartazDosFilmes img {
+.imagem img {
     cursor: pointer;
     width: 100%;
 }
 
-.cartazDosFilmes .textoHover {
+.imagem .textoHover {
     position: absolute;
     bottom: 15px;
     left: 10px;
@@ -199,11 +199,11 @@ img {
     transition: opacity 0.3s;
 }
 
-.cartazDosFilmes:hover .textoHover {
+.imagem:hover .textoHover {
     opacity: 1;
 }
 
-.cartazVencedor {
+.imagemVencedor {
     position: relative;
     display: inline-block;
 
@@ -213,12 +213,12 @@ img {
     margin: 10px;
 }
 
-.cartazVencedor img {
+.imagemVencedor img {
     cursor: pointer;
     width: 100%;
 }
 
-.cartazVencedor .textoHover {
+.imagemVencedor .textoHover {
     position: absolute;
     bottom: 20px;
     left: 15px;
@@ -236,6 +236,6 @@ img {
     transition: opacity 0.3s;
 }
 
-.cartazVencedor:hover .textoHover {
+.imagemVencedor:hover .textoHover {
     opacity: 1;
 }
