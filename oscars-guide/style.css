@@ -179,6 +179,7 @@ img {
 .imagem img {
     cursor: pointer;
     width: 100%;
+
 }
 
 .imagem .textoHover {
@@ -210,12 +211,13 @@ img {
     border: 10px solid;
     border-color: #FBD579;
     
-    margin: 10px;
+    margin: 10px 15px 0 15px;
 }
 
 .imagemVencedor img {
     cursor: pointer;
     width: 100%;
+
 }
 
 .imagemVencedor .textoHover {
