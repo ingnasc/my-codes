@@ -17,7 +17,7 @@ img {
     position: absolute;
     z-index: 1;
     top: 41%;
-    left: 34.2%;
+    left: 50%;
     width: 468px;
     height: 44px;
     color: #000000;
@@ -117,15 +117,31 @@ img {
     height: 747px;
 }
 
-#botaoTopo {
+.botaoVoltarAoTopo {
+    font-size: 50px;
     color:#030000;
     text-decoration: none;
+
     background-color: #FBD579;
     border-radius: 25px;
-    font-size: 50px;
     padding: 2px 10px 10px 10px;
+    box-shadow: 3px 3px 10px #1F2120;
+
     position: fixed;
     right: 10px;
     bottom: 10px;
-    box-shadow: 3px 3px 10px #1F2120;
+
+    cursor: pointer;
+
+    visibility: hidden;
+    opacity: 0;
+
+    transition: 0.3s;
+    transform: translateY(100%);
+}
+
+.botaoVoltarAoTopo.show {
+    visibility: visible;
+    opacity: 1;
+    transform: translateY(0);
 }
