@@ -101,9 +101,9 @@ img {
     color: #FBD579;
     background-color: transparent;
     text-align: center;
-    font-size: 48px;
+    font-size: 30px;
     font-weight: 800;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 
     border-radius: 25px;
     border-color: #FBD579;
@@ -112,6 +112,8 @@ img {
     height: 92px;
     margin-top: 128px;
 }
+
+/*Botão de rolar até o topo*/
 
 .botaoVoltarAoTopo {
     font-size: 50px;
