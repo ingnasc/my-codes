@@ -13,20 +13,23 @@ img {
     position: relative;
 }
 
-.botaoCategorias {
+.botaoIrParaCategorias {
     position: absolute;
     z-index: 1;
     top: 41%;
-    left: 50%;
+    left: 33%;
     width: 468px;
     height: 44px;
+
     color: #000000;
     text-align: center;
     font-size: 20px;
     font-weight: 600;
+
     background-color: #FBD579;
     border-radius: 25px;
     border-color: transparent;
+
     cursor: pointer;
 }
 
@@ -43,7 +46,7 @@ img {
     border-color: #FBD579;
     width: 614px;
     height: 92px;
-    
+
     margin-top: 20px;
     margin-bottom: 10px;
 }
