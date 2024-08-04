@@ -151,3 +151,23 @@ img {
     opacity: 1;
     transform: translateY(0);
 }
+
+.cartazDosFilmes {
+    display: inline-block;
+}
+
+.cartazDosFilmes img {
+    cursor: pointer;
+
+    width: 100%;
+}
+
+.cartazVencedor {
+    display: inline-block;
+}
+
+.cartazVencedor img {
+    cursor: pointer;
+
+    width: 100%;
+}
